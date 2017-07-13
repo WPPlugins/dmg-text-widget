@@ -1,0 +1,22 @@
+{
+	"name"		: "DMG/WP_Widget_Base",
+
+	"license"	: "GPL-3.0",
+
+	"keywords"	: ["Wordpress", "widget"],
+
+	"authors"	:
+	[
+		{
+			"name"		: "Dan Gifford",
+			"email"		: "dan@dancoded.com",
+			"homepage"	: "http://dancoded.com",
+			"role"		: "Developer"
+		}
+	],
+
+	"autoload":
+	{
+		"psr-4": {"DMG\\WP_Widget_Base\\": "src/"}
+	}
+}
